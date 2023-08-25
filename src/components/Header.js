@@ -14,7 +14,7 @@ const Header = () => {
       </h1>
       {user ? (
         <div className="flex items-center">
-          <h1>{user.displayName}</h1>
+          <h1 className="font-sans underline">{user.displayName}</h1>
           <SignOut />
         </div>
       ) : null}
