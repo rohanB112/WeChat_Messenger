@@ -1,0 +1,24 @@
+{
+  "name": "task-2-messenger",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "Rohan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "firebase": "^10.1.0",
+    "postcss": "^8.4.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1"
+  }
+}
